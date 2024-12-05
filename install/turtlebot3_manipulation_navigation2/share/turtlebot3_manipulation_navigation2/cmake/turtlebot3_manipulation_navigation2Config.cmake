@@ -1,0 +1,1 @@
+/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_navigation2/ament_cmake_core/turtlebot3_manipulation_navigation2Config.cmake

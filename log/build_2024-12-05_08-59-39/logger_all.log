@@ -1,0 +1,857 @@
+[1.603s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.604s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fda3dd64970>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fda3dd64190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fda3dd64190>>)
+[5.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.075s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ComputerScience_Project'
+[5.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['ignore', 'ignore_ament_install']
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'ignore'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'ignore_ament_install'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['colcon_pkg']
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'colcon_pkg'
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['colcon_meta']
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'colcon_meta'
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['ros']
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'ros'
+[5.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_planning' with type 'ros.ament_python' and name 'path_planning'
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extensions ['ignore', 'ignore_ament_install']
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extension 'ignore'
+[5.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extension 'ignore_ament_install'
+[5.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extensions ['colcon_pkg']
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extension 'colcon_pkg'
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extensions ['colcon_meta']
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extension 'colcon_meta'
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extensions ['ros']
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extension 'ros'
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extensions ['cmake', 'python']
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extension 'cmake'
+[5.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extension 'python'
+[5.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extensions ['python_setup_py']
+[5.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation) by extension 'python_setup_py'
+[5.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['ignore', 'ignore_ament_install']
+[5.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'ignore'
+[5.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'ignore_ament_install'
+[5.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['colcon_pkg']
+[5.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'colcon_pkg'
+[5.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['colcon_meta']
+[5.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'colcon_meta'
+[5.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['ros']
+[5.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'ros'
+[5.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_manipulation/turtlebot3_manipulation' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation'
+[5.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['ignore', 'ignore_ament_install']
+[5.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'ignore'
+[5.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'ignore_ament_install'
+[5.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['colcon_pkg']
+[5.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'colcon_pkg'
+[5.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['colcon_meta']
+[5.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'colcon_meta'
+[5.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['ros']
+[5.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'ros'
+[5.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_manipulation/turtlebot3_manipulation_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_bringup'
+[5.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[5.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer) by extension 'ignore'
+[5.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer) by extension 'ignore_ament_install'
+[5.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer) by extensions ['colcon_pkg']
+[5.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer) by extension 'colcon_pkg'
+[5.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer) by extensions ['colcon_meta']
+[5.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer) by extension 'colcon_meta'
+[5.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer) by extensions ['ros']
+[5.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer) by extension 'ros'
+[5.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_cartographer'
+[5.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['ignore', 'ignore_ament_install']
+[5.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'ignore'
+[5.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'ignore_ament_install'
+[5.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['colcon_pkg']
+[5.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'colcon_pkg'
+[5.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['colcon_meta']
+[5.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'colcon_meta'
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['ros']
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'ros'
+[5.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_manipulation/turtlebot3_manipulation_description' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_description'
+[5.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['ignore', 'ignore_ament_install']
+[5.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'ignore'
+[5.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'ignore_ament_install'
+[5.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['colcon_pkg']
+[5.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'colcon_pkg'
+[5.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['colcon_meta']
+[5.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'colcon_meta'
+[5.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['ros']
+[5.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'ros'
+[5.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_manipulation/turtlebot3_manipulation_hardware' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_hardware'
+[5.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[5.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'ignore'
+[5.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'ignore_ament_install'
+[5.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['colcon_pkg']
+[5.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'colcon_pkg'
+[5.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['colcon_meta']
+[5.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'colcon_meta'
+[5.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['ros']
+[5.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'ros'
+[5.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_moveit_config'
+[5.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[5.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2) by extension 'ignore'
+[5.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2) by extension 'ignore_ament_install'
+[5.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2) by extensions ['colcon_pkg']
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2) by extension 'colcon_pkg'
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2) by extensions ['colcon_meta']
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2) by extension 'colcon_meta'
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2) by extensions ['ros']
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2) by extension 'ros'
+[5.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_navigation2'
+[5.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['ignore', 'ignore_ament_install']
+[5.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'ignore'
+[5.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'ignore_ament_install'
+[5.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['colcon_pkg']
+[5.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'colcon_pkg'
+[5.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['colcon_meta']
+[5.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'colcon_meta'
+[5.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['ros']
+[5.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'ros'
+[5.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_manipulation/turtlebot3_manipulation_teleop' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_teleop'
+[5.330s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[5.331s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'ignore'
+[5.331s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'ignore_ament_install'
+[5.332s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['colcon_pkg']
+[5.332s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'colcon_pkg'
+[5.333s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['colcon_meta']
+[5.333s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'colcon_meta'
+[5.336s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['ros']
+[5.337s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'ros'
+[5.337s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['cmake', 'python']
+[5.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'cmake'
+[5.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'python'
+[5.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extensions ['python_setup_py']
+[5.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations) by extension 'python_setup_py'
+[5.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[5.346s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[5.346s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[5.347s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[5.347s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[5.348s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[5.348s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[5.348s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[5.349s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[5.357s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[5.357s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[5.358s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[5.360s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[5.360s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[5.361s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[5.361s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[5.365s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[5.366s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[5.366s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[5.367s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[5.369s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[5.370s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[5.370s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[5.371s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[5.371s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[5.372s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[5.374s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[5.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.684s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/ubuntu/ComputerScience_Project/install
+[5.707s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 430 installed packages in /opt/ros/humble
+[5.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.207s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_args' from command line to 'None'
+[6.207s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_target' from command line to 'None'
+[6.208s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.208s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[6.208s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_clean_first' from command line to 'False'
+[6.208s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_force_configure' from command line to 'False'
+[6.209s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'ament_cmake_args' from command line to 'None'
+[6.209s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[6.209s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.210s] DEBUG:colcon.colcon_core.verb:Building package 'path_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/path_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/path_planning', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/src/path_planning', 'symlink_install': True, 'test_result_base': None}
+[6.212s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[6.212s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[6.213s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.213s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[6.213s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[6.215s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.215s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': True, 'test_result_base': None}
+[6.217s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[6.217s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.221s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[6.222s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[6.223s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[6.223s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[6.224s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[6.224s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.224s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': True, 'test_result_base': None}
+[6.226s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_cartographer' build argument 'cmake_args' from command line to 'None'
+[6.226s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_cartographer' build argument 'cmake_target' from command line to 'None'
+[6.227s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.227s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[6.229s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.229s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_manipulation_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer', 'symlink_install': True, 'test_result_base': None}
+[6.232s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_description' build argument 'cmake_args' from command line to 'None'
+[6.248s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_description' build argument 'cmake_target' from command line to 'None'
+[6.249s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.249s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_description' build argument 'cmake_clean_cache' from command line to 'False'
+[6.249s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_description' build argument 'cmake_clean_first' from command line to 'False'
+[6.250s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_description' build argument 'cmake_force_configure' from command line to 'False'
+[6.250s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_description' build argument 'ament_cmake_args' from command line to 'None'
+[6.251s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_description' build argument 'catkin_cmake_args' from command line to 'None'
+[6.251s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.253s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_manipulation_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_description', 'symlink_install': True, 'test_result_base': None}
+[6.261s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_hardware' build argument 'cmake_args' from command line to 'None'
+[6.262s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_hardware' build argument 'cmake_target' from command line to 'None'
+[6.262s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.268s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[6.269s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[6.269s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[6.269s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[6.269s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[6.269s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.270s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_manipulation_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware', 'symlink_install': True, 'test_result_base': None}
+[6.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_navigation2' build argument 'cmake_args' from command line to 'None'
+[6.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_navigation2' build argument 'cmake_target' from command line to 'None'
+[6.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[6.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[6.273s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[6.273s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[6.273s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[6.273s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.273s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_manipulation_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2', 'symlink_install': True, 'test_result_base': None}
+[6.275s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_bringup' build argument 'cmake_args' from command line to 'None'
+[6.275s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_bringup' build argument 'cmake_target' from command line to 'None'
+[6.275s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.275s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[6.275s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[6.275s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[6.276s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[6.276s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[6.276s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.276s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_manipulation_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup', 'symlink_install': True, 'test_result_base': None}
+[6.278s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_args' from command line to 'None'
+[6.291s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_target' from command line to 'None'
+[6.291s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.291s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[6.291s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[6.292s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[6.292s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[6.292s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[6.292s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.292s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_manipulation_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config', 'symlink_install': True, 'test_result_base': None}
+[6.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[6.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[6.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[6.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[6.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[6.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[6.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[6.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.294s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': True, 'test_result_base': None}
+[6.296s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_teleop' build argument 'cmake_args' from command line to 'None'
+[6.296s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_teleop' build argument 'cmake_target' from command line to 'None'
+[6.296s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.296s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[6.296s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[6.296s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[6.296s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[6.296s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[6.296s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.297s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_manipulation_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop', 'symlink_install': True, 'test_result_base': None}
+[6.303s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation' build argument 'cmake_args' from command line to 'None'
+[6.303s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation' build argument 'cmake_target' from command line to 'None'
+[6.303s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.303s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation' build argument 'cmake_clean_cache' from command line to 'False'
+[6.303s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation' build argument 'cmake_clean_first' from command line to 'False'
+[6.303s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation' build argument 'cmake_force_configure' from command line to 'False'
+[6.303s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation' build argument 'ament_cmake_args' from command line to 'None'
+[6.304s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation' build argument 'catkin_cmake_args' from command line to 'None'
+[6.304s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_manipulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.304s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_manipulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation', 'merge_install': False, 'path': '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation', 'symlink_install': True, 'test_result_base': None}
+[6.304s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.310s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_description' with build type 'ament_cmake'
+[6.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_description'
+[6.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.413s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[6.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ComputerScience_Project/turtlebot3_simulations/turtlebot3_fake_node'
+[6.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.440s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[6.441s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ComputerScience_Project/turtlebot3_simulations/turtlebot3_gazebo'
+[6.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.478s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer' with build type 'ament_cmake'
+[6.479s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer'
+[6.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.521s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware' with build type 'ament_cmake'
+[6.528s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware'
+[6.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.530s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.558s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2' with build type 'ament_cmake'
+[6.560s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_navigation2'
+[6.561s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.563s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.603s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/src/path_planning' with build type 'ament_python'
+[6.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planning', 'ament_prefix_path')
+[6.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning/hook/ament_prefix_path.ps1'
+[6.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning/hook/ament_prefix_path.dsv'
+[6.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning/hook/ament_prefix_path.sh'
+[6.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description -- -j8 -l8
+[6.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_fake_node -- -j8 -l8
+[6.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_gazebo -- -j8 -l8
+[6.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_cartographer -- -j8 -l8
+[6.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware -- -j8 -l8
+[7.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_navigation2 -- -j8 -l8
+[9.057s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ComputerScience_Project/src/path_planning'
+[9.058s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.058s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description -- -j8 -l8
+[9.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_cartographer -- -j8 -l8
+[9.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_fake_node -- -j8 -l8
+[9.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware -- -j8 -l8
+[9.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_navigation2 -- -j8 -l8
+[9.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description
+[9.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_cartographer
+[9.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_fake_node
+[9.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_navigation2
+[9.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware
+[10.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_cartographer)
+[10.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_cartographer
+[10.140s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer' for CMake module files
+[10.141s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer' for CMake config files
+[10.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_cartographer', 'cmake_prefix_path')
+[10.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/hook/cmake_prefix_path.ps1'
+[10.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/hook/cmake_prefix_path.dsv'
+[10.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/hook/cmake_prefix_path.sh'
+[10.159s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/bin'
+[10.161s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/lib/pkgconfig/turtlebot3_manipulation_cartographer.pc'
+[10.162s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/lib/python3.10/site-packages'
+[10.163s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/bin'
+[10.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.ps1'
+[10.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.dsv'
+[10.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.sh'
+[10.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.bash'
+[10.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.zsh'
+[10.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/colcon-core/packages/turtlebot3_manipulation_cartographer)
+[10.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_description)
+[10.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description
+[10.254s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description' for CMake module files
+[10.257s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description' for CMake config files
+[10.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_description', 'cmake_prefix_path')
+[10.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.ps1'
+[10.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.dsv'
+[10.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.sh'
+[10.284s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/bin'
+[10.285s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/lib/pkgconfig/turtlebot3_manipulation_description.pc'
+[10.286s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/lib/python3.10/site-packages'
+[10.287s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/bin'
+[10.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.ps1'
+[10.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv'
+[10.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.sh'
+[10.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.bash'
+[10.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.zsh'
+[10.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/colcon-core/packages/turtlebot3_manipulation_description)
+[10.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[10.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_fake_node
+[10.340s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node' for CMake module files
+[10.343s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node' for CMake config files
+[10.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[10.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[10.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[10.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[10.394s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/lib'
+[10.403s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/bin'
+[10.404s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[10.405s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/lib/python3.10/site-packages'
+[10.408s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/bin'
+[10.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[10.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[10.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[10.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[10.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[10.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[10.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_hardware)
+[10.490s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware' for CMake module files
+[10.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware
+[10.494s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware' for CMake config files
+[10.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_hardware', 'cmake_prefix_path')
+[10.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.ps1'
+[10.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.dsv'
+[10.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.sh'
+[10.512s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/lib'
+[10.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_hardware', 'ld_library_path_lib')
+[10.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.ps1'
+[10.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.dsv'
+[10.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.sh'
+[10.547s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/bin'
+[10.548s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/lib/pkgconfig/turtlebot3_manipulation_hardware.pc'
+[10.549s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/lib/python3.10/site-packages'
+[10.552s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/bin'
+[10.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.ps1'
+[10.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.dsv'
+[10.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.sh'
+[10.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.bash'
+[10.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.zsh'
+[10.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/colcon-core/packages/turtlebot3_manipulation_hardware)
+[10.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_navigation2)
+[10.594s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2' for CMake module files
+[10.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_navigation2
+[10.597s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2' for CMake config files
+[10.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_navigation2', 'cmake_prefix_path')
+[10.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/hook/cmake_prefix_path.ps1'
+[10.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/hook/cmake_prefix_path.dsv'
+[10.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/hook/cmake_prefix_path.sh'
+[10.606s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/bin'
+[10.606s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/lib/pkgconfig/turtlebot3_manipulation_navigation2.pc'
+[10.610s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/lib/python3.10/site-packages'
+[10.611s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/bin'
+[10.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/package.ps1'
+[10.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/package.dsv'
+[10.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/package.sh'
+[10.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/package.bash'
+[10.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/package.zsh'
+[10.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/colcon-core/packages/turtlebot3_manipulation_navigation2)
+[10.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_cartographer)
+[10.668s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer' for CMake module files
+[10.671s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer' for CMake config files
+[10.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_cartographer', 'cmake_prefix_path')
+[10.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/hook/cmake_prefix_path.ps1'
+[10.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/hook/cmake_prefix_path.dsv'
+[10.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/hook/cmake_prefix_path.sh'
+[10.678s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/bin'
+[10.678s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/lib/pkgconfig/turtlebot3_manipulation_cartographer.pc'
+[10.679s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/lib/python3.10/site-packages'
+[10.680s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/bin'
+[10.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.ps1'
+[10.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.dsv'
+[10.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.sh'
+[10.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.bash'
+[10.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.zsh'
+[10.748s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer/share/colcon-core/packages/turtlebot3_manipulation_cartographer)
+[10.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_description)
+[10.757s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description' for CMake module files
+[10.759s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description' for CMake config files
+[10.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_description', 'cmake_prefix_path')
+[10.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.ps1'
+[10.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.dsv'
+[10.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.sh'
+[10.773s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/bin'
+[10.777s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/lib/pkgconfig/turtlebot3_manipulation_description.pc'
+[10.779s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/lib/python3.10/site-packages'
+[10.793s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/bin'
+[10.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.ps1'
+[10.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv'
+[10.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.sh'
+[10.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.bash'
+[10.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.zsh'
+[10.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/colcon-core/packages/turtlebot3_manipulation_description)
+[10.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_gazebo -- -j8 -l8
+[10.859s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup' with build type 'ament_cmake'
+[10.860s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup'
+[10.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.862s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.949s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config' with build type 'ament_cmake'
+[10.950s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config'
+[10.959s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.962s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[11.007s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node' for CMake module files
+[11.011s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node' for CMake config files
+[11.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[11.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[11.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[11.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[11.037s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/lib'
+[11.037s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/bin'
+[11.038s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[11.039s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/lib/python3.10/site-packages'
+[11.041s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/bin'
+[11.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[11.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[11.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[11.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[11.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[11.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[11.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_navigation2)
+[11.119s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2' for CMake module files
+[11.121s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2' for CMake config files
+[11.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_navigation2', 'cmake_prefix_path')
+[11.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/hook/cmake_prefix_path.ps1'
+[11.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/hook/cmake_prefix_path.dsv'
+[11.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/hook/cmake_prefix_path.sh'
+[11.151s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/bin'
+[11.152s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/lib/pkgconfig/turtlebot3_manipulation_navigation2.pc'
+[11.154s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/lib/python3.10/site-packages'
+[11.155s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/bin'
+[11.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/package.ps1'
+[11.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/package.dsv'
+[11.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/package.sh'
+[11.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/package.bash'
+[11.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/turtlebot3_manipulation_navigation2/package.zsh'
+[11.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2/share/colcon-core/packages/turtlebot3_manipulation_navigation2)
+[11.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_bringup': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_bringup -- -j8 -l8
+[11.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_moveit_config': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_moveit_config -- -j8 -l8
+[11.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_hardware)
+[11.265s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware' for CMake module files
+[11.270s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware' for CMake config files
+[11.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_hardware', 'cmake_prefix_path')
+[11.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.ps1'
+[11.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.dsv'
+[11.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.sh'
+[11.296s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/lib'
+[11.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_hardware', 'ld_library_path_lib')
+[11.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.ps1'
+[11.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.dsv'
+[11.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.sh'
+[11.307s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/bin'
+[11.307s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/lib/pkgconfig/turtlebot3_manipulation_hardware.pc'
+[11.309s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/lib/python3.10/site-packages'
+[11.309s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/bin'
+[11.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.ps1'
+[11.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.dsv'
+[11.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.sh'
+[11.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.bash'
+[11.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.zsh'
+[11.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/colcon-core/packages/turtlebot3_manipulation_hardware)
+[11.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_gazebo
+[11.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_moveit_config -- -j8 -l8
+[11.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_bringup' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_bringup -- -j8 -l8
+[11.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_moveit_config': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_moveit_config
+[11.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[11.811s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo' for CMake module files
+[11.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_gazebo
+[11.817s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo' for CMake config files
+[11.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[11.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[11.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[11.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[11.851s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/lib'
+[11.853s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/bin'
+[11.853s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[11.855s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[11.857s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/bin'
+[11.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[11.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[11.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[11.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[11.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[11.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[11.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_bringup': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_bringup
+[12.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_moveit_config)
+[12.018s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config' for CMake module files
+[12.020s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config' for CMake config files
+[12.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_moveit_config', 'cmake_prefix_path')
+[12.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.ps1'
+[12.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.dsv'
+[12.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_moveit_config
+[12.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.sh'
+[12.086s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/bin'
+[12.086s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/lib/pkgconfig/turtlebot3_manipulation_moveit_config.pc'
+[12.087s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/lib/python3.10/site-packages'
+[12.088s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/bin'
+[12.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.ps1'
+[12.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.dsv'
+[12.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.sh'
+[12.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.bash'
+[12.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.zsh'
+[12.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/colcon-core/packages/turtlebot3_manipulation_moveit_config)
+[12.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_bringup)
+[12.143s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup' for CMake module files
+[12.145s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup' for CMake config files
+[12.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_bringup', 'cmake_prefix_path')
+[12.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.ps1'
+[12.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.dsv'
+[12.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.sh'
+[12.172s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/bin'
+[12.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_bringup' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_bringup
+[12.174s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/lib/pkgconfig/turtlebot3_manipulation_bringup.pc'
+[12.174s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/lib/python3.10/site-packages'
+[12.176s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/bin'
+[12.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.ps1'
+[12.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.dsv'
+[12.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.sh'
+[12.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.bash'
+[12.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.zsh'
+[12.195s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/colcon-core/packages/turtlebot3_manipulation_bringup)
+[12.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[12.263s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo' for CMake module files
+[12.269s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo' for CMake config files
+[12.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[12.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[12.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[12.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[12.281s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/lib'
+[12.281s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/bin'
+[12.282s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[12.283s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[12.340s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/bin'
+[12.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[12.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[12.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[12.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[12.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[12.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[12.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[12.357s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ComputerScience_Project/turtlebot3_simulations/turtlebot3_simulations'
+[12.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.400s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_moveit_config)
+[12.403s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config' for CMake module files
+[12.405s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config' for CMake config files
+[12.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_moveit_config', 'cmake_prefix_path')
+[12.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.ps1'
+[12.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.dsv'
+[12.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.sh'
+[12.419s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/bin'
+[12.419s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/lib/pkgconfig/turtlebot3_manipulation_moveit_config.pc'
+[12.424s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/lib/python3.10/site-packages'
+[12.425s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/bin'
+[12.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.ps1'
+[12.448s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.dsv'
+[12.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.sh'
+[12.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.bash'
+[12.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.zsh'
+[12.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config/share/colcon-core/packages/turtlebot3_manipulation_moveit_config)
+[12.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_bringup)
+[12.478s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup' for CMake module files
+[12.480s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup' for CMake config files
+[12.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_bringup', 'cmake_prefix_path')
+[12.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.ps1'
+[12.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.dsv'
+[12.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.sh'
+[12.498s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/bin'
+[12.499s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/lib/pkgconfig/turtlebot3_manipulation_bringup.pc'
+[12.502s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/lib/python3.10/site-packages'
+[12.503s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/bin'
+[12.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.ps1'
+[12.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.dsv'
+[12.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.sh'
+[12.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.bash'
+[12.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.zsh'
+[12.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup/share/colcon-core/packages/turtlebot3_manipulation_bringup)
+[12.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop' with build type 'ament_cmake'
+[12.530s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop'
+[12.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_simulations -- -j8 -l8
+[12.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_teleop': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_teleop -- -j8 -l8
+[12.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_simulations -- -j8 -l8
+[13.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_simulations
+[13.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_teleop' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_teleop -- -j8 -l8
+[13.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[13.245s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations' for CMake module files
+[13.248s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations' for CMake config files
+[13.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[13.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[13.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[13.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[13.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_simulations
+[13.263s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/bin'
+[13.264s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[13.268s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[13.271s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/bin'
+[13.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[13.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[13.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[13.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[13.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[13.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[13.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_teleop': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_teleop
+[13.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[13.554s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations' for CMake module files
+[13.558s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations' for CMake config files
+[13.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[13.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[13.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[13.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[13.569s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/bin'
+[13.569s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[13.570s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[13.571s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/bin'
+[13.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[13.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[13.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[13.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[13.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[13.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[13.621s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_teleop)
+[13.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_teleop' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_teleop
+[13.624s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop' for CMake module files
+[13.627s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop' for CMake config files
+[13.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_teleop', 'cmake_prefix_path')
+[13.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.ps1'
+[13.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.dsv'
+[13.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.sh'
+[13.661s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/lib'
+[13.662s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/bin'
+[13.663s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/lib/pkgconfig/turtlebot3_manipulation_teleop.pc'
+[13.664s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/lib/python3.10/site-packages'
+[13.665s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/bin'
+[13.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.ps1'
+[13.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.dsv'
+[13.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.sh'
+[13.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.bash'
+[13.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.zsh'
+[13.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/colcon-core/packages/turtlebot3_manipulation_teleop)
+[13.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation_teleop)
+[13.930s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop' for CMake module files
+[13.938s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop' for CMake config files
+[13.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation_teleop', 'cmake_prefix_path')
+[13.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.ps1'
+[13.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.dsv'
+[13.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.sh'
+[13.947s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/lib'
+[13.948s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/bin'
+[13.949s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/lib/pkgconfig/turtlebot3_manipulation_teleop.pc'
+[13.952s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/lib/python3.10/site-packages'
+[13.964s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/bin'
+[13.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.ps1'
+[13.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.dsv'
+[13.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.sh'
+[13.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.bash'
+[13.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.zsh'
+[13.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop/share/colcon-core/packages/turtlebot3_manipulation_teleop)
+[13.991s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation' with build type 'ament_cmake'
+[13.992s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ComputerScience_Project/src/turtlebot3_manipulation/turtlebot3_manipulation'
+[13.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation -- -j8 -l8
+[14.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation -- -j8 -l8
+[14.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/path_planning': PYTHONPATH=/home/ubuntu/ComputerScience_Project/build/path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ComputerScience_Project/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ComputerScience_Project/build/path_planning/build --no-deps symlink_data
+[14.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation
+[14.845s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation)
+[14.846s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation' for CMake module files
+[14.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_teleop:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_moveit_config:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_bringup:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_navigation2:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_cartographer:/home/ubuntu/ComputerScience_Project/install/turtlebot3_simulations:/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation:/home/ubuntu/ComputerScience_Project/install/turtlebot3_gazebo:/home/ubuntu/ComputerScience_Project/install/turtlebot3_fake_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation
+[14.850s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation' for CMake config files
+[14.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation', 'cmake_prefix_path')
+[14.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/hook/cmake_prefix_path.ps1'
+[14.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/hook/cmake_prefix_path.dsv'
+[14.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/hook/cmake_prefix_path.sh'
+[14.855s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/bin'
+[14.856s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/lib/pkgconfig/turtlebot3_manipulation.pc'
+[14.857s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/lib/python3.10/site-packages'
+[14.857s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/bin'
+[14.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.ps1'
+[14.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.dsv'
+[14.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.sh'
+[14.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.bash'
+[14.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.zsh'
+[14.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/colcon-core/packages/turtlebot3_manipulation)
+[15.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_manipulation)
+[15.128s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation' for CMake module files
+[15.129s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation' for CMake config files
+[15.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_manipulation', 'cmake_prefix_path')
+[15.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/hook/cmake_prefix_path.ps1'
+[15.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/hook/cmake_prefix_path.dsv'
+[15.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/hook/cmake_prefix_path.sh'
+[15.137s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/bin'
+[15.137s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/lib/pkgconfig/turtlebot3_manipulation.pc'
+[15.138s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/lib/python3.10/site-packages'
+[15.139s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/bin'
+[15.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.ps1'
+[15.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.dsv'
+[15.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.sh'
+[15.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.bash'
+[15.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.zsh'
+[15.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation/share/colcon-core/packages/turtlebot3_manipulation)
+[17.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planning', 'pythonpath_develop')
+[17.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/build/path_planning/share/path_planning/hook/pythonpath_develop.ps1'
+[17.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ComputerScience_Project/build/path_planning' returned '0': PYTHONPATH=/home/ubuntu/ComputerScience_Project/build/path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ComputerScience_Project/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ComputerScience_Project/build/path_planning/build --no-deps symlink_data
+[17.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/build/path_planning/share/path_planning/hook/pythonpath_develop.dsv'
+[17.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/build/path_planning/share/path_planning/hook/pythonpath_develop.sh'
+[17.538s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/path_planning' for CMake module files
+[17.539s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/path_planning' for CMake config files
+[17.540s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/path_planning/lib'
+[17.541s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/path_planning/bin'
+[17.541s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/path_planning/lib/pkgconfig/path_planning.pc'
+[17.542s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/path_planning/lib/python3.10/site-packages'
+[17.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planning', 'pythonpath')
+[17.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning/hook/pythonpath.ps1'
+[17.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning/hook/pythonpath.dsv'
+[17.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning/hook/pythonpath.sh'
+[17.555s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ComputerScience_Project/install/path_planning/bin'
+[17.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_planning)
+[17.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning/package.ps1'
+[17.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning/package.dsv'
+[17.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning/package.sh'
+[17.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning/package.bash'
+[17.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning/package.zsh'
+[17.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ComputerScience_Project/install/path_planning/share/colcon-core/packages/path_planning)
+[17.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.609s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.609s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.610s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.683s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.683s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.684s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.407s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.408s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ComputerScience_Project/install/local_setup.ps1'
+[20.414s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ComputerScience_Project/install/_local_setup_util_ps1.py'
+[20.426s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ComputerScience_Project/install/setup.ps1'
+[20.433s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ComputerScience_Project/install/local_setup.sh'
+[20.436s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ComputerScience_Project/install/_local_setup_util_sh.py'
+[20.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ComputerScience_Project/install/setup.sh'
+[20.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ComputerScience_Project/install/local_setup.bash'
+[20.461s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ComputerScience_Project/install/setup.bash'
+[20.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ComputerScience_Project/install/local_setup.zsh'
+[20.480s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ComputerScience_Project/install/setup.zsh'

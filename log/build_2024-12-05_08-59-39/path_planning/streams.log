@@ -1,0 +1,26 @@
+[7.860s] Invoking command in '/home/ubuntu/ComputerScience_Project/build/path_planning': PYTHONPATH=/home/ubuntu/ComputerScience_Project/build/path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ComputerScience_Project/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ComputerScience_Project/build/path_planning/build --no-deps symlink_data
+[9.586s] running develop
+[9.594s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.595s]   warnings.warn(
+[10.723s] running egg_info
+[10.723s] creating path_planning.egg-info
+[10.731s] writing path_planning.egg-info/PKG-INFO
+[10.731s] writing dependency_links to path_planning.egg-info/dependency_links.txt
+[10.732s] writing entry points to path_planning.egg-info/entry_points.txt
+[10.733s] writing requirements to path_planning.egg-info/requires.txt
+[10.733s] writing top-level names to path_planning.egg-info/top_level.txt
+[10.733s] writing manifest file 'path_planning.egg-info/SOURCES.txt'
+[10.734s] reading manifest file 'path_planning.egg-info/SOURCES.txt'
+[10.735s] writing manifest file 'path_planning.egg-info/SOURCES.txt'
+[10.740s] running build_ext
+[10.740s] Creating /home/ubuntu/ComputerScience_Project/install/path_planning/lib/python3.10/site-packages/path-planning.egg-link (link to .)
+[10.745s] Installing path_planning script to /home/ubuntu/ComputerScience_Project/install/path_planning/lib/path_planning
+[10.746s] 
+[10.747s] Installed /home/ubuntu/ComputerScience_Project/build/path_planning
+[10.748s] running symlink_data
+[10.749s] creating /home/ubuntu/ComputerScience_Project/install/path_planning/share/ament_index
+[10.750s] creating /home/ubuntu/ComputerScience_Project/install/path_planning/share/ament_index/resource_index
+[10.751s] creating /home/ubuntu/ComputerScience_Project/install/path_planning/share/ament_index/resource_index/packages
+[10.752s] symbolically linking /home/ubuntu/ComputerScience_Project/build/path_planning/resource/path_planning -> /home/ubuntu/ComputerScience_Project/install/path_planning/share/ament_index/resource_index/packages
+[10.755s] symbolically linking /home/ubuntu/ComputerScience_Project/build/path_planning/package.xml -> /home/ubuntu/ComputerScience_Project/install/path_planning/share/path_planning
+[10.923s] Invoked command in '/home/ubuntu/ComputerScience_Project/build/path_planning' returned '0': PYTHONPATH=/home/ubuntu/ComputerScience_Project/build/path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ComputerScience_Project/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ComputerScience_Project/build/path_planning/build --no-deps symlink_data

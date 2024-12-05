@@ -1,0 +1,42 @@
+[0.060s] Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description -- -j8 -l8
+[0.227s] Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description -- -j8 -l8
+[0.274s] Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description
+[0.287s] -- Install configuration: ""
+[0.287s] -- Execute custom install script
+[0.289s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/launch/model.launch.py
+[0.290s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/rviz/model.rviz
+[0.291s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/open_manipulator_x.urdf.xacro
+[0.292s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_manipulation.urdf.xacro
+[0.292s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[0.294s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/materials.xacro
+[0.295s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/open_manipulator_x.gazebo.xacro
+[0.295s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/turtlebot3_waffle_pi.gazebo.xacro
+[0.298s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl
+[0.299s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl
+[0.300s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl
+[0.300s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl
+[0.301s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl
+[0.302s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl
+[0.302s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl
+[0.304s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl
+[0.305s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl
+[0.305s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl
+[0.307s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl
+[0.307s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/ros2_control/turtlebot3_manipulation_system.ros2_control.xacro
+[0.309s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/turtlebot3_manipulation_description.dsv
+[0.311s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_description
+[0.311s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_description
+[0.312s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.sh
+[0.312s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.dsv
+[0.313s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.sh
+[0.313s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.dsv
+[0.314s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.bash
+[0.314s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.sh
+[0.314s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.zsh
+[0.314s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.dsv
+[0.315s] -- Symlinking: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv
+[0.330s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/ament_index/resource_index/packages/turtlebot3_manipulation_description
+[0.331s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig.cmake
+[0.332s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig-version.cmake
+[0.333s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.xml
+[0.391s] Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description

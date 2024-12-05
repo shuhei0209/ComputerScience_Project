@@ -1,0 +1,1 @@
+/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_description/ament_cmake_core/turtlebot3_manipulation_descriptionConfig-version.cmake

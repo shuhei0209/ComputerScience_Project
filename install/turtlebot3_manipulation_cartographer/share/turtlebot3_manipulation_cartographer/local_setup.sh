@@ -1,0 +1,1 @@
+/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_cartographer/ament_cmake_environment_hooks/local_setup.sh

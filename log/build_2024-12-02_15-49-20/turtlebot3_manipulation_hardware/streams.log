@@ -1,0 +1,36 @@
+[0.056s] Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware -- -j8 -l8
+[0.345s] [100%] Built target turtlebot3_manipulation_hardware
+[0.387s] Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware -- -j8 -l8
+[0.439s] Invoking command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware
+[0.452s] -- Install configuration: ""
+[0.454s] -- Execute custom install script
+[0.454s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware//turtlebot3_manipulation_hardware.xml
+[0.454s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/dynamixel_sdk_wrapper.hpp
+[0.455s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr.hpp
+[0.460s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr_control_table.hpp
+[0.461s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr_definitions.hpp
+[0.465s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/turtlebot3_manipulation_system.hpp
+[0.465s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/visibility_control.h
+[0.466s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/lib/libturtlebot3_manipulation_hardware.so
+[0.466s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/library_path.sh
+[0.467s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/library_path.dsv
+[0.468s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_hardware
+[0.468s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_hardware
+[0.468s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/ament_prefix_path.sh
+[0.469s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/ament_prefix_path.dsv
+[0.469s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/path.sh
+[0.470s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/path.dsv
+[0.471s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.bash
+[0.471s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.sh
+[0.472s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.zsh
+[0.474s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.dsv
+[0.474s] -- Symlinking: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.dsv
+[0.497s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/packages/turtlebot3_manipulation_hardware
+[0.497s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/turtlebot3_manipulation_hardware
+[0.498s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.499s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[0.499s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.500s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/turtlebot3_manipulation_hardwareConfig.cmake
+[0.500s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/turtlebot3_manipulation_hardwareConfig-version.cmake
+[0.501s] -- Up-to-date symlink: /home/ubuntu/ComputerScience_Project/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.xml
+[0.503s] Invoked command in '/home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ComputerScience_Project/build/turtlebot3_manipulation_hardware
